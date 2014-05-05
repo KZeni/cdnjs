@@ -1,0 +1,31 @@
+{
+  "name": "velocity.js",
+  "filename": "jquery.velocity.min.js",
+  "version": "0.0.0",
+  "description": "Velocity recreates the entirety of jQuery's CSS stack and builds a concise animation layer on top of it. To minimize DOM interaction, Velocity reuses previous animation values and batches DOM queries.",
+  "homepage": "http://velocityjs.org",
+  "keywords": [
+    "velocity",
+    "animation",
+    "performance",
+    "dom"
+  ],
+  "maintainers": [
+    {
+      "name": "Julian Shapiro",
+      "web": "http://julian.com/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/julianshapiro/velocity.git"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT License",
+      "url": "https://github.com/julianshapiro/velocity/blob/master/LICENSE"
+    }
+  ]
+}
