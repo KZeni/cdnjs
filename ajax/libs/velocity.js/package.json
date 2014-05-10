@@ -1,31 +1,37 @@
 {
-  "name": "velocity.js",
-  "filename": "jquery.velocity.min.js",
+  "name": "Velocity.js",
   "version": "0.0.0",
-  "description": "Velocity recreates the entirety of jQuery's CSS stack and builds a concise animation layer on top of it. To minimize DOM interaction, Velocity reuses previous animation values and batches DOM queries.",
   "homepage": "http://velocityjs.org",
-  "keywords": [
-    "velocity",
-    "animation",
-    "performance",
-    "dom"
-  ],
+  "author": {
+    "name" : "Julian Shapiro",
+    "homepage" : "http://julian.com/"
+  },
   "maintainers": [
     {
       "name": "Julian Shapiro",
-      "web": "http://julian.com/"
+      "homepage": "http://julian.com/"
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/julianshapiro/velocity.git"
-    }
+  "description": "Accelerated JavaScript animation.",
+  "main": "./jquery.velocity.js",
+  "filename": "jquery.velocity.min.js",
+  "keywords": [
+    "animation",
+    "jquery",
+    "animate",
+    "lightweight",
+    "smooth",
+    "ui",
+    "velocity.js",
+    "velocityjs",
+    "javascript"
   ],
-  "licenses": [
-    {
-      "type": "MIT License",
-      "url": "https://github.com/julianshapiro/velocity/blob/master/LICENSE"
-    }
-  ]
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "jquery/jquery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianshapiro/velocity.git"
+  }
 }
